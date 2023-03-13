@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>NextBookings Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&family=Nunito+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">
+            <div class="logo-image">
+                <img src="images/logo.png" class="img" style="width:250px">
+          </div>
+          </a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="material-symbols-outlined">
+                menu
+                </span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ms-auto order-5">
+                <button class="btn btn-signup" id="navbtn"><span>Sign up </span></button>
+                <button class="btn btn-login" id="navbtn"><span>Log in </span></button>
+              </ul>
+	      </div>
+		  </div>
+	  </nav>
+<!----End of Nav------>
+<section>
+<div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000" id="hero">
+        <div class="img"><img class="slide d-block vw-100 vh-100" src="images/bg_1.jpg" style="background: (black, transparent);" alt="First slide"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000" id="hero">
+        <div class="img"><img class="slide d-block w-100 vh-100" src="images/bg_2.jpg" style="background: (black, transparent);" alt="Second slide"></div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000" id="hero">
+        <div class="img"><img class="slide d-block w-100 vh-100" src="images/bg_3.jpg" style="background: (black, transparent);" alt="Third slide"></div>
+      </div>
+          <form action="" class="search-bar" method="GET">
+           <input type="text" name="search" class="form-control" placeholder="Search for location, restaurant name or cuisine">
+            <button type="submit" class="btn btn-default" id="searchbtn">Search</button>
+         </form>
+      </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-------Restaurant Cards------->
+<section class="restaurants" id="restaurants">
+    <div class="container mt-5">
+        <h2>Here are the popular restaurants in your area.....</h2><br>
+       
+        <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-item active">
+           <div class="card">
+            <div class="img-wrapper">
+                <img src="images/savoy1.jpg" alt="Card image">
+            </div>
+                <div class="card-body">
+                  <h4 class="card-title">savoy cuisine</h4>
+                  <p class="card-text">International,Steak</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div> 
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/olive1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">olive garden</h4>
+                  <p class="card-text">italian, american, cajun</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/oyasu1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">oyasu izakaya</h4>
+                  <p class="card-text">japanese, sushi</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/gastronome1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">the gastronome</h4>
+                  <p class="card-text">international, buffet</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/adobo1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">adobo queens</h4>
+                  <p class="card-text">filipino</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/sliceofitaly1.jpg" alt="Card image">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Slice of italy</h4>
+                  <p class="card-text">italian, pizza</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/sampaguita1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">sampaguita cafe</h4>
+                  <p class="card-text">filipino</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/udon1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">udon diaries</h4>
+                  <p class="card-text">japanese</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/philip1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">philip oyster club</h4>
+                  <p class="card-text">seafood</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/linpaifung.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">lin pai fung</h4>
+                  <p class="card-text">chinese</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="img-wrapper">
+                <img src="images/bulgogi1.jpg" alt="Card image">
+              </div>
+                <div class="card-body">
+                  <h4 class="card-title">bulgogi grill</h4>
+                  <p class="card-text">korean</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper">
+              <img src="images/siam1.jpg" alt="Card image">
+            </div>
+              <div class="card-body">
+                <h4 class="card-title">siam kitchen</h4>
+                <p class="card-text">asian, thai</p>
+              <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+       
+        <!---<div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">savoy cuisine</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">olive graden</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">the gastronome</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">Philip oyster club</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row gy-3">
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">bella italia</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">Slice of italy</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">kaisei</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="images/resto1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                <h4 class="card-title">udon diaries</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn-default">Book a table</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+----Restaurant cards ends------->
+<!----Blog section starts-->
+<section class="ftco-section mt-5" id="blogsection">
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
+        <h2 class="mb-4">Recent from blog</h2>
+        <p>We are far from experts when it comes to food, but we can asure you that we are really enthusiastic in tasting the best food in the world. So here are our takes on the current food scenario in the Philippines and the world.</p>
+      </div>
+    </div>
+    <div class="row d-flex">
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry align-self-stretch">
+          <a href="#" class="block-20" style="background-image: url('images/blog1.jpg');">
+          </a>
+          <div class="text py-4 d-block">
+            <div class="meta">
+              <div><a href="#">January 5, 2023</a></div>
+              <div><a href="#">Admin</a></div>
+            </div>
+            <h3 class="heading mt-2"><a href="#">Most flavourful umami</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit quae rerum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry align-self-stretch">
+          <a href="#" class="block-20" style="background-image: url(images/blog2.jpg);">
+          </a>
+          <div class="text py-4 d-block">
+            <div class="meta">
+              <div><a href="#">February 6, 2023</a></div>
+              <div><a href="#">Admin</a></div>
+            </div>
+            <h3 class="heading mt-2"><a href="#">The Farm to table setup</a></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit rerum adipisci, harum non animi sapiente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry align-self-stretch">
+          <a href="#" class="block-20" style="background-image: url('images/blog3.jpg');">
+          </a>
+          <div class="text py-4 d-block">
+            <div class="meta">
+              <div><a href="#">March 3, 2023</a></div>
+              <div><a href="#">Admin</a></div>
+            </div>
+            <h3 class="heading mt-2"><a href="#">A family gathering</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, praesentium!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!----Blog section end-->
+
+<!---- Feedback section starts---->
+<section class="ftco-section img mt-5" id="ftco-testimony">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <span class="subheading">Testimony</span>
+        <h2 class="mb-4">Our Users Says</h2>
+        <p>These are the comments we receive from the people who are dear to us. These honest words are what keeps us running.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-wrap">
+    <div class="row d-flex no-gutters">
+      <div class="col-lg align-self-sm-end ftco-animate">
+        <div class="testimony">
+           <blockquote>
+              <p>&ldquo;I’ve sacrificed my childhood, I’ve sacrificed my freedom, and I’ve sacrificed my happiness to present Liza Soberano to the world.
+
+                And I think I’ve earned the right to finally be me, to finally be able to do things for me, as Hope Soberano.&rdquo;</p>
+            </blockquote>
+            <div class="author d-flex mt-4">
+              <div class="image mr-3 align-self-center">
+                <img src="images/liza.jpg" alt="">
+              </div>
+              <div class="name align-self-center">hope soberano <span class="position">careless whisper</span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg align-self-sm-end">
+        <div class="testimony overlay">
+           <blockquote>
+              <p>&ldquo;Hopefully, this would inspire everybody to do our responsibility bilang Pilipino na magbayad ng tax&rdquo;</p>
+            </blockquote>
+            <div class="author d-flex mt-4">
+              <div class="image mr-3 align-self-center">
+                <img src="images/kathryn.jpg" alt="">
+              </div>
+              <div class="name align-self-center">kathryn bernardo <span class="position">Highest celebrity taxpayer</span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg align-self-sm-end ftco-animate">
+        <div class="testimony">
+           <blockquote>
+              <p>&ldquo;Nasa 'yo na ang lahat
+                Minamahal kita 'pagkat
+                Nasa 'yo na ang lahat
+                Pati ang puso ko &rdquo;</p>
+            </blockquote>
+            <div class="author d-flex mt-4">
+              <div class="image mr-3 align-self-center">
+                <img src="images/daniel.jpg" alt="">
+              </div>
+              <div class="name align-self-center">daniel padilla <span class="position">certified gangster</span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg align-self-sm-end">
+        <div class="testimony overlay">
+           <blockquote>
+              <p>&ldquo;I work a lot in the slums of Tondo, Manila and the life there is very... it's poor and it's very sad. And I've always taught myself to look for the beauty in it; to look in the beauty in the faces of the children, and to be grateful.&rdquo;</p>
+            </blockquote>
+            <div class="author d-flex mt-4">
+              <div class="image mr-3 align-self-center">
+                <img src="images/catriona.png" alt="">
+              </div>
+              <div class="name align-self-center">catriona gray<span class="position">Miss Universe 2018</span></div>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg align-self-sm-end ftco-animate">
+        <div class="testimony">
+          <blockquote>
+            <p>&ldquo;Running with a purpose bigger than just receiving a medal kept me fueled. Which probably, unintentionally, led me to PR. Kilig &rdquo;</p>
+          </blockquote>
+          <div class="author d-flex mt-4">
+            <div class="image mr-3 align-self-center">
+              <img src="images/anne.jpeg" alt="">
+            </div>
+            <div class="name align-self-center">anne curtis <span class="position">Tokyo marathon finisher/celebrity</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!----Feedback Section ends---->
+
+
+<!----About Section starts---->
+<section class="about" id="about">
+
+  <div class="container">
+
+    <div class="row align-items-center mt-5 pb-5">
+
+      <div class="col-md-6 image">
+        <img src="images/about.jpg" class="w-100 mb-5 mb-md-0" alt="">
+      </div>
+
+      <div class="col-md-6 content">
+        <span>about us</span>
+        <h3>We help you decide your next fun</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime dolorum debitis nostrum vero autem officia quos, consectetur perspiciatis omnis dolorem adipisci, culpa veniam ullam iste deleniti nesciunt voluptates minus?</p>
+        <a href="#contact" class="link-btn">email us</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-----about section ends---->     
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

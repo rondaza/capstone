@@ -1,0 +1,19 @@
+restaurants name: savoy cuisine, olive graden, the gastronome, Philip oyster club, delectable delights
+italian: pizza perfection, Slice of italy, bella italia
+japanese: oyasu meals, udon diaries, kaisei
+filipino: adobo queens, sampaguita cafe, isla garden restaurant
+
+
+
+savoy cuisine: International,Steak; Pasay city, Metro Manila
+olive garden: italian, american, cajun; Makati city
+oyasu izakaya: japanese, sushi; Makati city
+the gastronome: international, buffet, seafood; pasay city
+adobo queens: filipino; taguig city
+Slice of italy: italian, pizza; pasay city
+sampaguita cafe: filipino; pasay city
+udon diaries: japanese, fusion; Makati city
+philip oyster club: international, seafood; taguig city
+lin pai fung: chinese, dimsum; pasay city
+bulgogi grill: korean, bbq, grill; Makati city
+siam kitchen: thai; pasay city
